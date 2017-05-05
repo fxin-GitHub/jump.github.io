@@ -99,14 +99,14 @@ createScreen.prototype.ballHitGround = function(_ball, _ground){
 var game = new Phaser.Game(800, 600, Phaser.CANVAS, "demo2", {preload:preload, create:create, update:update, render:render});
 
 function preload(){
-	game.load.image("key_undersea", "assets/particlestorm/undersea.jpg");
-	game.load.image("key_ground", "assets/tests/ground.png");
-	game.load.image("key_flectrum", "assets/sprites/flectrum.png");
-	game.load.image("key_fire1", "assets/particles/fire1.png");
-	game.load.image("key_fire2", "assets/particles/fire2.png");
-	game.load.image("key_fire3", "assets/particles/fire3.png");
-	game.load.image("key_ball", "assets/sprites/wizball.png");
-	game.load.image('key_analog', 'assets/tests/fusia.png');
+	game.load.image("key_undersea", "assets/undersea.jpg");
+	game.load.image("key_ground", "assets/ground.png");
+	game.load.image("key_flectrum", "assets/flectrum.png");
+	game.load.image("key_fire1", "assets/fire1.png");
+	game.load.image("key_fire2", "assets/fire2.png");
+	game.load.image("key_fire3", "assets/fire3.png");
+	game.load.image("key_ball", "assets/wizball.png");
+	game.load.image('key_analog', 'assets/fusia.png');
 }
 
 var ball;
