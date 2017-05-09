@@ -64,9 +64,9 @@ createScreen = function(_index, _game,_ball){
 
 	this.group = this.game.add.group();
 	if(this.index >0){
-		this.group.addMultiple([this.background, this.groupFlectrum, this.emitter]);
+		this.group.addMultiple([this.background, this.groupFlectrum]);
 	}else{
-		this.group.addMultiple([this.background, this.ground, this.groupFlectrum, this.emitter]);
+		this.group.addMultiple([this.background, this.ground, this.groupFlectrum]);
 	}
 	//return this.group;
 }
